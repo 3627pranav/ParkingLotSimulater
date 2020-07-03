@@ -8,6 +8,7 @@ namespace ParkingLotSimulation
 {
     public class Vehicle
     {
+        // testing branch
         public String VehicleNumber { get; set; }
 
         public VehicleType VehicleType { get; set; }
