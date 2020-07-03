@@ -10,6 +10,7 @@ namespace ParkingLotSimulation
     {
         public static void Main()
         {
+            //this is tesiting
             string[] vehicleTypes = Enum.GetNames(typeof(VehicleType));
             int[] vehicleCapacityByType = new int[vehicleTypes.Length];
             for (int i = 0; i < vehicleTypes.Length; i++)
